@@ -1,4 +1,4 @@
-// Lab2.cpp: определяет точку входа для консольного приложения.
+// Lab2.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
@@ -26,7 +26,7 @@ void read() {
 	int counter=0;
 	getline(fin, word, '\n');
 	cout << word << endl;
-	while (fin.eof()) {
+	while (fin.eof()==0) {
 		getline(fin, word, ';');
 		getline(fin, meaning, '\n');
 		dictionary[word] = meaning;
